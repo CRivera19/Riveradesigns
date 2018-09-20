@@ -1,0 +1,106 @@
+html {
+  padding:0;
+
+}
+body{
+  color: white;
+  margin:0;
+}
+.wrapper {
+  display: grid;
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  text-align: center;
+}
+.brand {
+  color: white;
+  text-decoration: none;
+}
+.logo {
+  padding: 1em 0;
+}
+/* .navbar {
+  display: flex;
+} */
+.navbar-list{
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+  justify-content: center;
+
+}
+.nav-link{
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+}
+.header {
+  padding: 5em 0;
+}
+.about-image {
+  border-radius: 50%;
+  border: 2px solid white;
+}
+.about-text {
+  padding:10px
+}
+.contact {
+  padding:2em 0;
+}
+
+
+
+h1,h2,h3,h4,h5,h6 {
+  Font-Family: 'Roboto Condensed', Sans-Serif; 
+}
+p,a {
+  Font-Family: 'Cabin', Sans-Serif;
+}
+
+/* Media Query */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  .header {
+    padding: 10em 0;
+    background-color: white;
+    color:#330867;
+  }
+  .header h1 {
+    font-size: 4em;
+  }
+  .header h3 {
+    font-size: 3em;
+  }
+  .navbar-list{
+    margin-bottom: 30px;
+  }
+  .about {
+    width: 40%;
+    display: inline-block;
+  }
+  .logo {
+    padding: .5em;
+  }
+  .about-image{
+    margin: 1em;
+    -webkit-box-shadow: 10px 7px 51px -1px rgba(0,0,0,0.71);
+    -moz-box-shadow: 10px 7px 51px -1px rgba(0,0,0,0.71);
+    box-shadow: 10px 7px 51px -1px rgba(0,0,0,0.71);
+  }
+  .service-image {
+    width: 50%;
+    -webkit-box-shadow: 10px 7px 51px -1px rgba(0,0,0,0.71);
+    -moz-box-shadow: 10px 7px 51px -1px rgba(0,0,0,0.71);
+    box-shadow: 10px 7px 51px -1px rgba(0,0,0,0.71);
+  }
+  #portfolio {
+    background-color: white;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  h2 {
+    font-size: 1.7em;
+  }
+  a {
+    font-size: 1.2em;
+  }
+  }
